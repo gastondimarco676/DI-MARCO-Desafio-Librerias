@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINETECA</title>
+ 
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div id="titulo">
+      <h1 id="h1">CINETECA</h1>
+      <h2>Tu lugar para ver Cine Clásico</h2>
+    </div>
+    
+  </header>
+
+
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+      <h3 id="carrito">CARRITO</h3>
+      <button id="boton-carrito"><span id="contadorCarrito">0</span></button>
+      <!--button id="carritoCerrar">Cerrar Carrito</button-->
+      <div id="carrito-contenedor">
+      </div>
+      <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+      <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+    </div>
+
+    <main id="contenedor-peliculas"></main>
+
+
+    <!--input type="search" id="peliBuscada" name="Qué película buscás?"
+      placeholder="Película, autor, año...">
+
+    <input type="submit" value="Buscar" id="buscador"-->
+
+
+    <section id="section">
+
+    </section>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="peliculas.js"></script>
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script-->
+</body>
+
+</html>

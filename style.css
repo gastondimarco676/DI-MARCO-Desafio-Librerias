@@ -1,0 +1,133 @@
+body{
+    background-image: url("img/nightandthecity-3.png");
+    background-repeat: repeat;
+    
+}
+#contenedor-peliculas{
+    display: flex;
+    height: 900px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown; 
+    margin-bottom: 10px;
+    font-size: 140px;
+    text-align: left;
+    width: 200px;
+    height: 100px;
+    text-shadow: 4px 4px 4px black;
+    line-height: 50px;
+}
+h2{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' ;
+    color: rgb(227, 210, 198);
+    text-align: left;
+    text-shadow: 2px 2px 2px black;
+    line-height: 0px;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(228, 189, 138);
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+ 
+}
+h4, .precioProducto{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.precioProducto{
+    font-size: 20px;
+}
+
+
+.card{
+    background-color: rgb(226, 10, 10);
+    color: rgb(69, 245, 154);
+    width: 200px;
+    height: 480px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 12px darkgoldenrod dashed;
+    margin-bottom: 50px;
+    
+}
+.card h3{
+    text-align: center;
+}
+
+
+
+input{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.card img{
+    max-width: 200px;
+
+    }
+
+.productoEnCarrito{
+background-color: blue;
+width: 120px;
+height: 350px;
+margin-bottom: 30px;
+margin-left: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: blanchedalmond;
+padding: 4px;
+
+}
+.productoEnCarrito img{
+    width: 120px;
+    height: auto;
+}
+.productoEnCarrito p{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#carrito-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*#carritoCerrar{
+    width: 50px;
+    height: 50px;
+}*/
+
+#titulo{
+    color: brown;
+}
+
+
+
+    #botonEliminar{
+        color: red;
+        line-height: 20px;
+    }
+
+    .modal-contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 90px;
+    }
